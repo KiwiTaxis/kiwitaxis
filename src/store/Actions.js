@@ -1,0 +1,1 @@
+export function apiGotData(data) { return {type: 'ApiGotData', data}; }

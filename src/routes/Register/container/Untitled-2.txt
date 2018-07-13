@@ -1,0 +1,3 @@
+<View style ={styles.logocontainer}>
+				<Image source={require('../../Assets/Images/logo.png')}   initWidth="300" initHeight="300"/>
+		</View>

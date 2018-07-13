@@ -1,0 +1,25 @@
+    
+          <View style={[styles.fare]}>
+            <View>
+              <Button
+              onPress={this.openModal}
+              title ="Get Estimate"
+              color = "#fff"
+             
+             > </Button>
+              </View>
+              <View style={[styles.payment]}>
+               <Button
+              onPress={this.viewMarker}
+              title ="Select Payment"
+              color = "#000080"
+              />
+            </View>
+              <View style={[styles.request]}>
+              <Button
+              onPress={this.viewMarker}
+              title ="Request Taxi"
+              color = "#000080"
+              />
+              </View>
+              </View>
